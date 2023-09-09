@@ -20,7 +20,7 @@ p
 	color:yellow;
 	text-shadow: 0px 0px 2px;
 	font-weight: bold;
-	font-size:40px;
+	font-size:50px;
 
 	position: absolute;
 	left:0;
@@ -35,14 +35,16 @@ p
 	height:2px;
 	margin-top:0px;
 	background-color: white;
+	margin-bottom:-20px;
 }
 #move-paint
 {
-	font-size:26px;
+	font-size:35px;
 	text-align: center;
 	color:white;
 	font-weight: bold;
-	letter-spacing: 3px;
+	margin-bottom:10px;
+	
 }
 #line2
 {
@@ -62,7 +64,7 @@ p
 	border-width:10px;
 	max-width:510px;
 	max-height:270px;
-	margin-bottom: -4px;
+	margin-bottom: -12px;
 }
 #hurricane
 {
@@ -110,7 +112,11 @@ li
 	}
 	#move-paint
 	{
-		font-size:20px;
+		font-size:21px;
+	}
+	#surfer
+	{
+		max-width:250px;
 	}
 
 }
@@ -121,18 +127,29 @@ li
 {
 	#ocean-header
 	{
-		font-size:24px;
+		font-size:30px;
+	}
+	#line1
+	{
+		margin-bottom:-10px;
 	}
 	#move-paint
 	{
-		font-size:14px;
-		letter-spacing: 0px;
+		font-size:16px;
 	}
 	#surfer
 	{
 		max-width:200px;
 	}
 	#hurricane
+	{
+		font-size:14px;
+	}
+	#contact-us
+	{
+		font-size:28px;
+	}
+	li
 	{
 		font-size:14px;
 	}
